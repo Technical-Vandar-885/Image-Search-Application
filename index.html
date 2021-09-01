@@ -55,7 +55,7 @@
             event.preventDefault()
             $("#result").empty()
             var search=$("#search").val()
-            var url="https://api.unsplash.com/search/photos?query="+search+"&client_id=SdXt4c1b9LcJQqw0PGNQ7AQP6Hj7HD0_Gjg2awVHMyU&per_page=60"
+            var url="https://api.unsplash.com/search/photos?query="+search+"&client_id={Your_Access_Key}&per_page=60"
 
             $.ajax({
                 method: 'GET',
